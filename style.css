@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+
+  text-align: center;
+
+  background: #111;
+
+  border: 1px solid #222;
+
+  border-radius: 24px;
+
+  padding: 70px 50px;
+
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.03);
+}
+
+.role {
+  color: #8b8b8b;
+
+  font-size: 20px;
+
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 82px;
+
+  margin-bottom: 30px;
+}
+
+.description {
+  color: #b0b0b0;
+
+  font-size: 24px;
+
+  line-height: 1.7;
+
+  max-width: 900px;
+
+  margin: auto auto 45px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+
+  border: 1px solid #333;
+
+  padding: 14px 32px;
+
+  border-radius: 12px;
+
+  transition: 0.3s ease;
+}
+
+.links a:hover {
+  background: white;
+  color: black;
+
+  transform: translateY(-3px);
+}
+
+section {
+  margin-top: 90px;
+}
+
+h2 {
+  font-size: 42px;
+
+  margin-bottom: 30px;
+}
+
+section p {
+  color: #b5b5b5;
+
+  font-size: 22px;
+
+  line-height: 1.8;
+
+  max-width: 820px;
+
+  margin: auto;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 16px;
+
+  margin-top: 25px;
+}
+
+.skills span {
+  background: #1a1a1a;
+
+  border: 1px solid #333;
+
+  padding: 12px 22px;
+
+  border-radius: 12px;
+
+  font-size: 18px;
+
+  transition: 0.3s ease;
+}
+
+.skills span:hover {
+  transform: translateY(-3px);
+
+  border-color: #666;
+}
+
+.project-card {
+  background: #151515;
+
+  border: 1px solid #333;
+
+  border-radius: 20px;
+
+  padding: 35px;
+
+  max-width: 720px;
+
+  margin: 35px auto 0;
+}
+
+.project-card h3 {
+  font-size: 32px;
+
+  margin-bottom: 20px;
+}
+
+.project-card p {
+  margin-bottom: 30px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: white;
+
+  border: 1px solid #333;
+
+  padding: 12px 24px;
+
+  border-radius: 12px;
+
+  transition: 0.3s ease;
+}
+
+.project-card a:hover {
+  background: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  section p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .container {
+    padding: 50px 25px;
+  }
+}
